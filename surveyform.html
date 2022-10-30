@@ -1,0 +1,82 @@
+<!DOCTYPE html>   
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Academician Foundation Form</h1>
+        <p id="description">This is the membership form to get register into the foundation</p>
+
+        <form action="" id="survey-form">
+
+            <div class="input-div">
+                <label for="name" id="name-label">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter your name" required>
+
+                <label for="email" id="email-label">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+                <label for="age" id="age-label">Age (optional)</label>
+                <input id="age" type="number" name="age" placeholder=" Enter your age" min="13" max="30">
+
+                <label for="number" id="number-label">Number</label>
+                <input id="number" type="number" name="number" placeholder="Enter your phone number" minlength="10" maxlength="13">
+            </div>
+
+            <div class="dropdown-div">
+                <label for="dropdown" id="dropdown-label">What is your educational level?</label>
+                <select id="dropdown" name="dropdown" required>
+                    <option disabled>Select current role</option>
+                    <option value="Primary">Primary</option>
+                    <option value="Juniorhigh">Junior high</option>
+                    <option value="Seniorhigh">Senior high</option>
+                    <option value="Tertairy">Tertairy</option>
+                </select> 
+            </div>
+            
+            <div class="radio-div">
+                <label for="radio-label" id="radio-label">What is your gender?</label>
+                
+                <div class="form-radio">
+                    <input type="radio" id="male-female"  name="gender" value="male">Male</input> <br>
+
+                    <input type="radio" id="male-female" name="gender" value="female">Female</input> <br>
+                </div>
+            </div>
+
+            
+            <div class="checkbox-div">
+                <label for="checkbox-label" id="checkbox-label">Which languages can you speak? (Check all which are applicable)</label> 
+
+                <div class="form-checkbox">
+                    <label for="mfantse"><input type="checkbox" name="checkbox" value="mfantse">Mfantse</input>
+                    </label>
+
+                    <input type="checkbox" name="checkbox" value="twi">Twi</input> <br>
+
+                    <input type="checkbox" name="checkbox" value="ga">Ga</input><br>
+
+                    <input type="checkbox" name="checkbox" value="english">English</input><br>
+
+                    <input type="checkbox" name="checkbox" value="french">French</input><br>
+
+                    <input type="checkbox" name="checkbox" value="spanish">Spanish</input><br>
+                    
+                    <input type="checkbox" name="checkbox" value="italian">Italian</input><br>
+                </div>
+            </div>
+
+            <label>Any comments or suggestions?</label>
+
+            <textarea type="text" name="comment" id="comment" cols="89" rows="5" placeholder="Enter your comments and suggestions here..."></textarea>
+
+            <button id="submit">Submit</button>
+            
+        </form>
+
+    </body>
+
+</html>    

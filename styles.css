@@ -1,0 +1,98 @@
+body{
+	background-image: linear-gradient( 135deg, rgba(240, 14, 25, 0.6), rgba(26, 26, 230, 0.6) ), url("https://static.scientificamerican.com/sciam/cache/file/C3D6DFBB-92DD-43D0-A9F8CB9AB477F652_source.jpg?w=590&h=800&5F47C5D2-41D8-476F-A29200DA225DCEEA");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: cover;
+	width: 100%;
+	height: 100%;
+	color: white;
+	margin: 0;
+	line-height: 1.5;
+	font-weight: 500;
+	font-family: sans-serif;
+} 
+
+#title{
+	text-align: center;
+	font-size: 40px ;
+}
+
+#description{
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#survey-form{
+	background-color: rgba(10, 10, 10, 0.6);
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 20px 30px;
+}
+
+label{
+	margin: 20px 0px 5px 0px;
+	display: block;
+}
+
+.input-div input{
+	width: 95%;
+	height: 25px;
+	padding: 5px 15px;
+	font-size: 15px;
+}
+
+input{
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.form-radio input{
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+
+.form-checkbox input{
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+
+#dropdown{
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 15px;
+	font-size: 15px;
+}
+
+textarea{
+	width: 95%;
+	height: auto;
+	font-size: 15px;	
+	padding: 5px 15px;
+}
+
+#submit{
+	width: 100%;
+	margin-top: 20px;
+	color: white;
+	background-color: gray;
+	cursor: pointer;
+	height: 30px;
+	border: none;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 1141px){
+	 form{
+	 	width:  80%;
+	 }
+}
+
+@media screen and (max-width: 540px){
+	form{
+		width: 95%;
+	}
+}
